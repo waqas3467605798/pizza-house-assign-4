@@ -1,10 +1,19 @@
-.log{
-    font-family: Informal Roman;
-    
-
+.logo{
+    height: 55px;
+    width: 250px;
+    margin-top: 3px;
+    margin-left: 10px   ;
 }
 
 .log_text{
     color:blue;
     font-size: 50   px;
+}
+
+
+.heading1{
+    border-radius: 6px;
+    text-align:center;
+    background-color: aliceblue;
+    color:blue;
 }
