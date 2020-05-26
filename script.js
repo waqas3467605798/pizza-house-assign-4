@@ -8,3 +8,14 @@ document.addEventListener('DOMContentLoaded', function() {
     
     alert("Congratulations ..! Your order has been confirmed, We will delivered your order on your registered address within 20 minitus");
   }
+
+
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems);
+
+  });
+
+  
