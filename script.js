@@ -12,11 +12,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function feed(){
-    if(document.getElementById("first_name").value === ""  ){
-      alert("must fill the filed")
+    if(document.getElementById("first_name").value === "" || document.getElementById("contact").value === "" || document.getElementById("address").value === ""  || document.getElementById("feedback").value === ""  ){
+      alert("must fill the all input fileds")
     }
     else{
-    alert("Thank You..! Your Feedback has been submitted successfully.");
+    // alert("Thank You..! Your Feedback has been submitted successfully.");
+      document.getElementById("feed_back_heading").innerHTML = "";
+      document.getElementById("feed_back").innerHTML = "<h3 class='center' style='color:green'> Thank you..! Your Feedback has been submitted successfully  </h3>" + "<div class='center'> <a href='feedback.html'> <button class='waves-effect waves-light btn'> Go back </button> </a> </div>"
+
   } }
 
 
