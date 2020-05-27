@@ -11,6 +11,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+function feed(){
+    if(document.getElementById("first_name").value === ""  ){
+      alert("must fill the filed")
+    }
+    else{
+    alert("Thank You..! Your Feedback has been submitted successfully.");
+  } }
+
 
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
